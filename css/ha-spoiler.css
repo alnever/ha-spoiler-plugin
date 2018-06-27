@@ -1,0 +1,28 @@
+.spoiler {
+	display: block;
+	width: 100%;
+	background-color: #a0a0a0;
+}
+
+.spoiler > div.content {
+	font-family: "Courier New";
+	font-size: smaller;
+	padding: 5px 5px 5px 10px;
+	display: none;
+}
+
+.spoiler > div.header {
+	/* display: block; */
+	width: 100%;
+	padding: 5px 10px 5px 10px;
+	background-color: #c0c0c0;
+	border: solid 1px #303030;
+}
+
+.spoiler > div.header .header_icon {
+	width: 20px;
+	height: 20px;
+	/* display: table-cell; */
+	float: right;
+	cursor: pointer;
+}
