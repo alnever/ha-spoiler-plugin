@@ -23,7 +23,7 @@ class Ha_Spoiler {
 
 	public function add_admin_page() {
 		add_options_page(
-			'Settings Admin 2',
+			'Ha! Spoiler Plugin Settings',
 			'Ha! Spoiler Plugin Settings',
 			'manage_options',
 			'ha-spoiler-admin',
