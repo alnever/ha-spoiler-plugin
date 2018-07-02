@@ -29,7 +29,7 @@ class Ha_Spoiler {
 	public function enqueue_styles() {
 		wp_enqueue_style('ha-spoiler-style',
 				plugin_dir_url(__FILE__)."/css/ha-spoiler.css",
-				null, null, all
+				null, null, 'all'
 			);
 	}
 

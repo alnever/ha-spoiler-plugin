@@ -1,6 +1,5 @@
 .spoiler {
 	display: block;
-	width: 100%;
 	background-color: #a0a0a0;
 }
 
@@ -12,8 +11,8 @@
 }
 
 .spoiler > div.header {
-	/* display: block; */
-	width: 100%;
+	display: block;
+	width: auto;
 	padding: 5px 10px 5px 10px;
 	background-color: #c0c0c0;
 	border: solid 1px #303030;
