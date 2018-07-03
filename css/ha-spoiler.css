@@ -8,6 +8,8 @@
 	font-size: smaller;
 	padding: 5px 5px 5px 10px;
 	display: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .spoiler > div.header {
@@ -16,6 +18,7 @@
 	padding: 5px 10px 5px 10px;
 	background-color: #c0c0c0;
 	border: solid 1px #303030;
+    box-sizing: border-box;
 }
 
 .spoiler > div.header .header_icon {
