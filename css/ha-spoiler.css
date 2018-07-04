@@ -10,6 +10,8 @@
 	display: none;
     width: 100%;
     box-sizing: border-box;
+    background-color: #F0F0F0;
+    border: solid 1px #303030;
 }
 
 .spoiler > div.header {
@@ -21,10 +23,6 @@
     box-sizing: border-box;
 }
 
-.spoiler > div.header .header_icon {
-	width: 20px;
-	height: 20px;
-	/* display: table-cell; */
-	float: right;
-	cursor: pointer;
+.spoiler .spoiler_link {
+    cursor: pointer;
 }

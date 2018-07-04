@@ -1,7 +1,8 @@
 (function($) {
 
 	$(document).ready(function() {
-		$("#header_icon").click(function(){
+		$("#spoiler_link").click(function(){
+            console.log("It works");
 			if ($("#spoiler_content").css("display") == "none") {
 				$("#spoiler_content").show();
 			}
